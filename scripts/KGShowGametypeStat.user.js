@@ -3,7 +3,7 @@
 // @namespace       klavogonki
 // @include         http*://klavogonki.ru/g/*
 // @author          Voronov/JustSo
-// @version         0.1.1
+// @version         0.2
 // @description     Counts the number of races and create gametype stat link
 // @icon            https://i.imgur.com/w8pvv3n.jpg
 // ==/UserScript==
