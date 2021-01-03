@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            KGShowGametypeStat.user.js
+// @name            KGShowGametypeStat
 // @namespace       klavogonki
 // @include         http*://klavogonki.ru/g/*
 // @author          Voronov/JustSo
