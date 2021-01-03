@@ -23,7 +23,9 @@
 [tampermonkey-opera]: https://addons.opera.com/ru/extensions/details/tampermonkey-beta/
 [userscripts-safari]: https://apps.apple.com/us/app/userscripts/id1463298887
 
-Нажать на кнопку `INSTALL` нужного скрипта или добавить его код вручную `MANUAL`.
+Нажать на кнопку `INSTALL` нужного скрипта, должен открыться диалог установки расширения. Подвердить установку, нажав `Confirm Installation`.
+
+Для ручной установки скрипт доступен по ссылке `MANUAL`.
 
 ## KlavoScripts ##
 
