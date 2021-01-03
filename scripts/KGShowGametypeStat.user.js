@@ -3,7 +3,7 @@
 // @namespace       klavogonki
 // @include         http*://klavogonki.ru/g/*
 // @author          Voronov/JustSo
-// @version         0.1.0
+// @version         0.1.1
 // @description     Counts the number of races and create gametype stat link
 // @icon            https://i.imgur.com/w8pvv3n.jpg
 // ==/UserScript==
@@ -49,10 +49,11 @@ window.addEventListener('load', function() {
 
 
   function getUrl(protocol, racerId, gameType) {
-    var today = new Date();
-    var day = String(today.getUTCDate()).padStart(2, '0');
-    var month = String(today.getUTCMonth() + 1).padStart(2, '0');
-    var year = today.getUTCFullYear();
+    var moscowTime = new Date().toLocaleString("en-US", {timeZone: "Europe/Moscow"});
+    var today = new Date(moscowTime);
+    var day = String(today.getDate()).padStart(2, '0');
+    var month = String(today.getMonth() + 1).padStart(2, '0');
+    var year = today.getFullYear();
     today = [year, month, day].join('-');
 
     var url = `${protocol}//klavogonki.ru` +
