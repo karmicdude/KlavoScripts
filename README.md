@@ -31,7 +31,7 @@
 
 ### KGShowGametypeStat ###
 
-[![INSTALL](https://img.shields.io/badge/INSTALL-0.2-blue)][KGShowGametypeStat-install]
+[![INSTALL](https://img.shields.io/badge/INSTALL-0.3-blue)][KGShowGametypeStat-install]
 [![MANUAL](https://img.shields.io/badge/-SCRIPT-blue)][KGShowGametypeStat-code]
 
 ![KGShowGametypeStat Screenshot](https://i.imgur.com/9pcLDce.png)
