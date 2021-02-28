@@ -3,7 +3,7 @@
 // @namespace       klavogonki
 // @include         http*://klavogonki.ru/g/*
 // @author          Voronov/JustSo
-// @version         0.2
+// @version         0.3
 // @description     Counts the number of races and create gametype stat link
 // @icon            https://i.imgur.com/w8pvv3n.jpg
 // ==/UserScript==
@@ -12,7 +12,7 @@
 window.addEventListener('load', function() {
   if (document.getElementById('racer-mode-stat')) return;
 
-  run();
+  setTimeout(run, 1300);
 
   function run() {
     var protocol = location.protocol;
